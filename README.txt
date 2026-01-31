@@ -1,35 +1,50 @@
-=======================================
+========================================
 🚚 TS_Tool_Routier v1.0.0
-=======================================
-
-Éditeur de sauvegardes pour Transport Fever 2
+========================================
+Éditeur de sauvegardes Transport Fever 2
+Développé par ROUTIER87
 
 📦 INSTALLATION :
 1. Dézippez ce dossier où vous voulez
 2. Lancez TS_Tool_Routier.exe
+3. Aucune installation supplémentaire nécessaire
 
-🎮 UTILISATION :
-1. Cliquez sur "Ouvrir" ou menu Fichier > Ouvrir
-2. Sélectionnez votre sauvegarde .save
+🎮 UTILISATION RAPIDE :
+1. Cliquez sur "📂 Ouvrir une sauvegarde"
+2. Sélectionnez votre fichier .save
 3. Modifiez l'argent avec le contrôle numérique
-4. Enregistrez avec Fichier > Enregistrer
+4. Cliquez sur "💾 Enregistrer"
 
-⚠️ IMPORTANT :
-- TOUJOURS faire des sauvegardes de vos fichiers originaux !
-- L'outil crée automatiquement un fichier .backup
-- Les modifications sont irréversibles
+⚙️ CONFIGURATION IMPORTANTE :
+Vous DEVEZ trouver le VRAI offset de l'argent :
+1. Créez deux sauvegardes dans le jeu :
+   - Sauvegarde 1 : 1000 €
+   - Sauvegarde 2 : 5000 €
+2. Ouvrez les deux avec cet outil
+3. Allez dans l'onglet "🛠️ Outils"
+4. Modifiez l'offset argent jusqu'à voir
+   la bonne valeur d'argent s'afficher
+5. Cliquez sur "💾 Sauvegarder offset"
 
-🔧 CONFIGURATION :
-Modifiez config.ini pour ajuster :
-- Les offsets (argent, nom compagnie, etc.)
-- Les chemins des dossiers
-- Les paramètres de l'interface
+🔧 FONCTIONNALITÉS :
+• Édition de l'argent du joueur
+• Éditeur hexadécimal intégré
+• Sauvegarde automatique (.backup)
+• Configuration des offsets
+• Export des données en JSON
+• Système de logs complet
 
-📊 OFFSETS :
-Vous DEVEZ trouver les vrais offsets pour votre version du jeu :
-1. Créez deux sauvegardes avec argent différent
-2. Comparez-les avec un éditeur hexadécimal
-3. Modifiez config.ini avec les vrais offsets
+⚠️ AVERTISSEMENTS IMPORTANTS :
+• TOUJOURS faire des sauvegardes manuelles de vos fichiers
+• Les modifications sont IRREVERSIBLES
+• Utilisez à vos risques et périls
+• Testez d'abord sur des copies
 
-📞 SUPPORT :
-En cas de problème, vérifiez les fichiers dans logs/
+📞 SUPPORT & DÉPANNAGE :
+• Les logs sont dans le dossier "logs/"
+• En cas de problème, envoyez le fichier crash.log
+• Développeur : ROUTIER87
+
+========================================
+© 2024 ROUTIER87 - Tous droits réservés
+========================================
